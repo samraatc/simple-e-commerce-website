@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 70px;
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border :hover {
+    border: 1px solid white;
+}
+.nav-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 200px;
+}
+.logo{
+    background-image: url("/img/nav-logo.png");
+    background-size: cover;
+    height: 35px;
+    width: 200px;
+}
+.nav-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12%;
+}
+.search-input{
+    height: 40px;
+    width: 600px;
+    border: none;
+    border-top-left-radius: 10px;
+}
+.search-icon{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(248, 147, 22);
+    border-bottom-right-radius: 10px;
+}
+.nav-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    margin-left: 10%;
+    text-align: center;
+}
+.n-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 147, 22);
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+.n-login, .n-cart, a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(16, 16, 16);
+}
+.nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-left: 2%; 
+}
+.n-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 147, 22);
+    height: 40px;
+    width: 60px;  
+    border-radius: 10px;
+}
+
+
+
+ /* creating sub-nav style  */
+
+.sub-navbar{
+    height: 35px;
+    background-color: rgb(204, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-nav-content{
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    
+}
+
+ /* Container styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #0e0e0e;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown content styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Dropdown content link styles */
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover effect for the container */
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: antiquewhite;
+}
+
+
+/* body main content style  */
+.body-content{
+    background-image: url("img/bg13.jpg");
+    background-size: cover;
+    height: 700px;
+    margin-top: 40px;
+}
+.content{
+    background-image: url("img/nav-logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 300px;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-top: 15%;
+}
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogan-text{
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* cart page style  */
+
+/* Add custom styles here */
+
+.container {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+
+.delete-item {
+    margin-top: 10px;
+}
+
+.card {
+    margin-top: 20px;
+}
+.cart-main{
+    margin-top: 43px;
+    height: 700px;
+}
+
+
+
+
+
+
+
+/* Contact page style  */
+.contact-main{
+   margin-top: 50px;
+}
+
+
+ /* footer style */
+
+ .footer-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    height: 40px;
+ }
+ .footer-body{
+    height: 300px;
+    background-color: rgb(8, 1, 1);
+    color: white;
+ }
+ .footer-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(8, 1, 1);
+    color: white;
+ }
+ .footer-block ul a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+ }
+ .footer-block ul{
+    text-align: center;
+ }
+ .footer-block ul p{
+    font-size: 1.7rem;
+ }
+ .divider{
+    border-color: rgb(137, 133, 130);
+    size: 2;
+    width: 80%;
+    /* border: none; */
+ }
+ .hr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+ }
+ .map{
+    margin-top: 10px;
+ }
